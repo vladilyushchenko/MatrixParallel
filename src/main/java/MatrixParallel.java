@@ -36,10 +36,6 @@ public class MatrixParallel {
 
         public double getSum() { return sum; }
 
-        public int getFirstRow() { return firstRow; }
-
-        public int getSliceSize() { return sliceSize; }
-
         public MatrixThread(int firstRow, int sliceSize, double[][] matrix, int columns) {
             this.firstRow = firstRow;
             this.sliceSize = sliceSize;
